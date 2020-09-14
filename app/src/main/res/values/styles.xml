@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="noAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textinput_style">
+        <item name="android:layout_width">@dimen/_240sdp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColorHint">@color/black</item>
+
+    </style>
+
+    <style name="standard_layout"
+        >
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <style name="btn_shape">
+        <item name="android:layout_width">@dimen/_279sdp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">@dimen/_20sdp</item>
+        <item name="android:background">@drawable/pressed_or_not</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textColor">@drawable/text_pressed_or_not</item>
+        <item name="android:layout_below">@id/linear_foget</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+        <item name="background">@color/black</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="btn_favourite">
+        <item name="android:layout_width">@dimen/_150sdp</item>
+        <item name="android:layout_height">@dimen/_45sdp</item>
+        <item name="android:background">@drawable/pressed_or_not</item>
+        <item name="android:paddingLeft">@dimen/_10sdp</item>
+        <item name="android:paddingRight">@dimen/_10sdp</item>
+        <item name="android:textColor">@drawable/text_pressed_or_not</item>
+        <item name="android:layout_margin">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="social_media">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_45sdp</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingEnd">@dimen/_20sdp</item>
+        <item name="android:layout_marginTop">@dimen/_30sdp</item>
+    </style>
+
+</resources>

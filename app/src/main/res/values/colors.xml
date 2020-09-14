@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E0E0E0</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#F4511E</color>
+    <color name="black">#202020</color>
+    <color name="button">#01579B</color>
+    <color name="white">#ffffff</color>
+    <color name="white2">#FFFBFB</color>
+    <color name="facebook">#5361AE</color>
+    <color name="whats_app">#40C351</color>
+    <color name="youtube">#FF3D00</color>
+    <color name="linked">#0288D1</color>
+    <color name="twitter">#03A9F4</color>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">مكتبة احمد</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="welcome">Welcome</string>
+    <string name="forget_password">forget password !</string>
+    <string name="remember">Remember Me</string>
+    <string name="phone">Phone</string>
+    <string name="sign_up">اif you are new member sign up</string>
+
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="required">Required</string>
+    <string name="email_exist">email is used before try another one</string>
+    <string name="phone_exist">this phone is used before</string>
+    <string name="cleaners">Cleaning Tools</string>
+    <string name="foods">foodstuffs</string>
+    <string name="perfums">؛Perfums</string>
+    <string name="gategories">Categories</string>
+    <string name="bags">Orders</string>
+    <string name="favourites">Favourites</string>
+    <string name="search">search</string>
+    <string name="add_to_favourite">save</string>
+    <string name="add_to_bag">add to bag</string>
+    <string name="toys">toys</string>
+    <string name="about">about applications</string>
+    <string name="facebook">facebook</string>
+    <string name="whatsapp">Whats App</string>
+    <string name="title_activity_login">Sign In</string>
+
+    <string name="change_password">Change The Password</string>
+    <string name="code">insert the code</string>
+    <string name="send">send the code</string>
+    <string name="send_again">Resend</string>
+    <string name="another_email">choose another email</string>
+    <string name="change">Edit</string>
+    <string name="school">Scool Tools</string>
+    <string name="games">toys</string>
+    <string name="games_details">there is toys for your child here</string>
+    <string name="foods_details">we have here all foodstuffs for your family</string>
+    <string name="perfums_details">we have here all perfums</string>
+    <string name="details">and any product what you want</string>
+    <string name="banner_ads">ca-app-pub-2008695252233572/7267566689</string>
+    <string name="banner_ads2">ca-app-pub-2008695252233572~2413861108</string>
+    <string name="print">Print</string>
+    <string name="print_details">we have here coping </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_connection">Error Connection</string>
+
+</resources>

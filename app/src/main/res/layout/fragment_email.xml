@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container_send"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.algamil.mywaystore.ui.fragments.EmailFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txl_email_send"
+        app:startIconDrawable="@drawable/email"
+        android:hint="@string/prompt_email"
+        style="@style/textinput_style">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/txl_email_sending"
+            android:inputType="textEmailAddress"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="@string/send"
+        android:layout_below="@+id/txl_email_send"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:id="@+id/btn_send"
+        style="@style/btn_shape" />
+
+</RelativeLayout>

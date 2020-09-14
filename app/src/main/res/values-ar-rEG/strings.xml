@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مكتبة احمد</string>
+
+    <string name="prompt_email">البريد الالكتروني</string>
+    <string name="prompt_password">كلمة المرور</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="welcome">"مرحبا"</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="remember">تذكرني</string>
+    <string name="phone">الهاتف</string>
+    <string name="sign_up">ان كنت جديد قم بالتسجيل</string>
+
+    <string name="name">الاسم</string>
+    <string name="location">موقعك</string>
+    <string name="required">مطلوب</string>
+    <string name="email_exist">البريد موجود مسبقا</string>
+    <string name="phone_exist">رقم الهاتف موجود مسبقا</string>
+    <string name="cleaners">المنظفات</string>
+    <string name="foods">المواد الغذائية</string>
+    <string name="perfums">العطور</string>
+    <string name="gategories">الاصناف</string>
+    <string name="bags">الطلبات</string>
+    <string name="favourites">قائمة المفضلة</string>
+    <string name="search">ابحث بالمنتج</string>
+    <string name="add_to_favourite">"حفظ"</string>
+    <string name="add_to_bag">طلب المنتج</string>
+    <string name="toys">الالعاب</string>
+    <string name="about">عن التطبيق</string>
+    <string name="facebook">فيس بوك</string>
+    <string name="whatsapp">واتس اب</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="code">ادخل الكود</string>
+    <string name="send">ارسل الكود</string>
+    <string name="send_again">اعد الارسال</string>
+    <string name="another_email">استخدم بريد اخر</string>
+    <string name="change">تعديل</string>
+    <string name="school">الادوات المدرسية</string>
+    <string name="games">قسم الالعاب</string>
+    <string name="games_details">يوجد لدينا هنا الالعاب التي سيبحها ابنك</string>
+    <string name="foods_details">يوجد لدينا جميع المواد الغذائية التي يحتاجها لمطبخك</string>
+    <string name="perfums_details">يوجد لدينا العطور المناسبة لديك</string>
+    <string name="details">وغيرهم الكثير</string>
+    <string name="banner_ads">ca-app-pub-2008695252233572/7267566689</string>
+    <string name="banner_ads2">ca-app-pub-2008695252233572~2413861108</string>
+    <string name="print">تصوير</string>
+    <string name="print_details">يوجد لدينا تصوير مستندات وطباعة من الكمبوتر</string>
+    <string name="error_connection">خطا في الشبكة</string>
+
+
+</resources>

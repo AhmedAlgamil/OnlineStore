@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.algamil.mywaystore.ui.fragments.FoodsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:id="@+id/linear_Layout_foods"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:hint="@string/search"
+            android:layout_weight="1"
+            android:id="@+id/et_search_foods"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/search"
+            android:layout_weight="4"
+            android:id="@+id/search_foods"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_below="@+id/linear_Layout_foods"
+        android:id="@+id/linear_Layout_foods_cost"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_weight="1"
+            android:hint="ابحث بالسعر"
+            android:id="@+id/et_search_cost"
+            android:inputType="number"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/dolar"
+            android:layout_weight="4"
+            android:id="@+id/search_dolar"
+            />
+
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/make_swipe"
+        android:layout_below="@+id/linear_Layout_foods_cost"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:itemCount="20"
+            android:id="@+id/recycler_foods"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
